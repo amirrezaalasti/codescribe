@@ -33,6 +33,7 @@ metadata:
 5. **Generics when they remove duplication.** Add type parameters for reusable containers/helpers; do not invent complex generics for one-off code.
 6. **Avoid unsafe escapes.** Limit `!` non-null assertions; document why if unavoidable.
 7. **Keep runtime and types aligned.** Zod/Valibot (or similar) at boundaries when the project uses them — types alone do not validate external data.
+8. **Tag unfinished or risky work.** Use the global `tagged-code-comments` convention (`🔴 FIXME(P0):`, `🟠 TODO(P1):`, …). Never leave silent stubs or `as any` escapes without a tag. End with an **Open follow-ups** table so the developer must check P0/P1 before ship.
 
 ## Patterns
 

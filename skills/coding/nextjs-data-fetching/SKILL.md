@@ -30,6 +30,7 @@ metadata:
 5. **Loading and errors.** Use `loading.tsx`, route-level `error.tsx`, or Suspense boundaries so users see progress and recoverable failures.
 6. **Client fetching only when needed.** Use client SWR/React Query (if present) for highly interactive, frequently updating client state — not as the default for initial page data.
 7. **Match auth boundaries.** Check session/permissions before returning sensitive data or performing mutations.
+8. **Tag unfinished or risky work.** Use the global `tagged-code-comments` convention (`🔴 FIXME(P0):`, `🟠 TODO(P1):`, `🔴 SECURITY(P0):`). Never leave silent stubs or insecure shortcuts. End with an **Open follow-ups** table so the developer must check P0/P1 before ship.
 
 ## Patterns
 

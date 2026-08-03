@@ -20,10 +20,12 @@ metadata:
 
 1. …
 2. …
+3. **Tag unfinished or risky work.** Use the global `tagged-code-comments` convention (`🔴 FIXME(P0):`, `🟠 TODO(P1):`, …). End with an **Open follow-ups** table so the developer must check P0/P1 before ship.
 
 ## Checklist
 
 - [ ] …
+- [ ] Open follow-ups table listed (or explicitly `none`)
 
 ## Additional resources
 

@@ -2,7 +2,7 @@
 
 # Skill Catalog
 
-Generated from 22 skills. Install: `npx skills add amirrezaalasti/skillhub`
+Generated from 23 skills. Install: `npx skills add amirrezaalasti/skillhub`
 
 ## coding
 
@@ -16,6 +16,7 @@ Generated from 22 skills. Install: `npx skills add amirrezaalasti/skillhub`
 | `python-best-practices` | Write idiomatic, typed Python with clear packaging, ruff/pytest defaults, and practical error handling. Use when writing or refactoring Python code, modules, scripts, packages, or APIs, or when the user mentions Python style, typing, or project layout. | [`skills/coding/python-best-practices`](skills/coding/python-best-practices) |
 | `python-testing` | Design and write pytest tests with clear fixtures, parametrization, and coverage expectations. Use when writing Python tests, fixing failing tests, adding fixtures, or when the user mentions pytest, unit tests, or test coverage in Python. | [`skills/coding/python-testing`](skills/coding/python-testing) |
 | `react-best-practices` | Build React UIs with clear composition, correct state placement, disciplined effects, and basic accessibility. Use when writing React components, hooks, fixing re-renders or effect bugs, or when the user mentions React, JSX, or client UI state. | [`skills/coding/react-best-practices`](skills/coding/react-best-practices) |
+| `tagged-code-comments` | Global coding hygiene: every incomplete path, risk, workaround, or follow-up MUST be marked with emoji + tag + priority (🔴 FIXME(P0), 🟠 TODO(P1), …) so developers are forced to review open items before shipping. Use whenever writing, editing, reviewing, debugging, or finishing code in any language; when leaving TODOs/FIXMEs; when work is partial; or when the user asks for tagged, prioritized, or emoji comments. Default for all Skillhub coding work. | [`skills/coding/tagged-code-comments`](skills/coding/tagged-code-comments) |
 | `typescript-best-practices` | Write strict, idiomatic TypeScript with sound types, narrowing, and clear API contracts. Use when writing or refactoring TypeScript, adding types to JS, designing interfaces, fixing type errors, or when the user mentions tsconfig, generics, or typed APIs. | [`skills/coding/typescript-best-practices`](skills/coding/typescript-best-practices) |
 
 ## meta
@@ -37,7 +38,7 @@ Generated from 22 skills. Install: `npx skills add amirrezaalasti/skillhub`
 | `paper-introduction` | Write research paper introductions that motivate the problem, identify the gap, state contributions, and preview the paper. Use when drafting or revising an introduction section, opening, or contribution list for an academic paper. | [`skills/writing/paper-introduction`](skills/writing/paper-introduction) |
 | `paper-literature-review` | Write literature reviews that synthesize sources into arguments, themes, and research gaps rather than summarizing paper-by-paper. Use when writing a survey section, thesis literature review, related-work-heavy chapter, or when the user asks to synthesize papers into a review. | [`skills/writing/paper-literature-review`](skills/writing/paper-literature-review) |
 | `paper-methods` | Write methods and approach sections that specify the design clearly enough for skilled readers to understand and reproduce the core idea. Use when drafting methodology, approach, system design, experimental setup, or algorithm sections of a research paper. | [`skills/writing/paper-methods`](skills/writing/paper-methods) |
-| `paper-peer-review` | Review academic drafts with constructive, severity-tagged feedback on claims, structure, clarity, and evidence. Use when peer-reviewing a paper, revising a manuscript from critique, or when the user asks for a review pass on research writing. | [`skills/writing/paper-peer-review`](skills/writing/paper-peer-review) |
+| `paper-peer-review` | Review academic papers, theses, and tool/demo submissions with constructive, severity-tagged feedback on contribution, method rigor, statistics, validity threats, and artifact availability. Use when peer-reviewing a manuscript or thesis chapter, assessing an empirical study, experiment, or evaluation plan, checking reproducibility, open-science artifacts, or research questions, or when revising a manuscript from reviewer critique. | [`skills/writing/paper-peer-review`](skills/writing/paper-peer-review) |
 | `paper-related-work` | Write related-work sections that synthesize prior research into themes and clearly position the paper's contribution. Use when drafting related work, background comparisons, or positioning against prior methods in a research paper. | [`skills/writing/paper-related-work`](skills/writing/paper-related-work) |
 | `paper-results` | Present research results with clear metrics, comparisons, ablations, and figure/table narratives that support the paper's claims. Use when writing results, evaluation, experiments findings, ablations, or describing tables and figures in a research paper. | [`skills/writing/paper-results`](skills/writing/paper-results) |
 

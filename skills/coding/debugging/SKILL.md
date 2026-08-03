@@ -39,6 +39,10 @@ Reproduce → Isolate → Hypothesize → Verify → Fix → Regression-proof
 | Bisect / git blame | When it started |
 | Minimal script | Isolating from framework noise |
 
+## Global comment gate
+
+Follow `tagged-code-comments` globally: temporary mitigations get `🟡 HACK(Pn): … until …`; unfixed related risks get `🔴 FIXME` / `🟠 TODO`; never leave silent workarounds. End with an **Open follow-ups** table the developer must check.
+
 ## Anti-patterns
 
 - Changing multiple unrelated things before retesting

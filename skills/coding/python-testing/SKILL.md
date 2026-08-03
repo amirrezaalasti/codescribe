@@ -30,6 +30,7 @@ metadata:
 5. **Mark slow / integration tests.** Use markers (`@pytest.mark.slow`, `@pytest.mark.integration`) when the project defines them; keep the default suite fast.
 6. **Mock at boundaries.** Mock network, clock, and filesystem edges — not the unit under test. Prefer `unittest.mock` or `pytest-mock` as the project already uses.
 7. **Fail loudly.** Prefer raising / expecting exceptions with `pytest.raises` over returning magic error codes in tests.
+8. **Tag gaps.** If you skip coverage for a path you touched, leave `🟠 TEST(P1):` via `tagged-code-comments` and list it in **Open follow-ups** so the developer must check before ship.
 
 ## Minimal example
 

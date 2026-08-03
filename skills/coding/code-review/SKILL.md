@@ -74,6 +74,10 @@ One short paragraph: merge readiness and top risks.
 - Vague “this feels wrong” without an alternative
 - Demanding large refactors unrelated to the change
 
+## Global comment gate
+
+Follow `tagged-code-comments` for any finding that must travel with the code (`🔴 FIXME(P0):`, `🟠 TODO(P1):`, …). End the review by listing open in-code P0/P1 markers in touched files so the author must check them before merge.
+
 ## Additional resources
 
 - [references/checklist.md](references/checklist.md)

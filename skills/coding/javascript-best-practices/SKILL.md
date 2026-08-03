@@ -33,6 +33,7 @@ metadata:
 5. **Validate at edges.** Parse and validate external input (HTTP, CLI, env) before use.
 6. **Avoid magic.** Named constants over unexplained numbers/strings; no deep optional chaining chains that hide bugs (`a?.b?.c?.d`).
 7. **Node vs browser.** Do not import Node-only APIs into browser bundles (and vice versa) without an explicit boundary.
+8. **Tag unfinished or risky work.** Use the global `tagged-code-comments` convention (`🔴 FIXME(P0):`, `🟠 TODO(P1):`, …). Never leave silent stubs. End with an **Open follow-ups** table so the developer must check P0/P1 before ship.
 
 ## Error handling
 

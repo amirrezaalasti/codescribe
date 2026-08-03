@@ -44,6 +44,7 @@ app/
 5. **Metadata.** Export `metadata` or `generateMetadata` from server components/pages for titles and SEO.
 6. **Errors & loading.** Provide `error.tsx` and `loading.tsx` for routes with meaningful async work.
 7. **Match the Next version.** Prefer patterns from the installed Next.js major; do not mix Pages Router APIs into App Router files.
+8. **Tag unfinished or risky work.** Use the global `tagged-code-comments` convention (`🔴 FIXME(P0):`, `🟠 TODO(P1):`, …). Never leave silent stubs. End with an **Open follow-ups** table so the developer must check P0/P1 before ship.
 
 ## Client boundary rule of thumb
 

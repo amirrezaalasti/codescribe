@@ -33,6 +33,7 @@ metadata:
 5. **Use pathlib and context managers.** Prefer `pathlib.Path` over string paths; always close resources with `with`.
 6. **Dependencies.** Prefer the stdlib. Add third-party libs only when they clearly reduce complexity; pin in the project's lockfile/tooling.
 7. **Do not over-abstract.** Wait for a second real use before extracting shared helpers or base classes.
+8. **Tag unfinished or risky work.** Use the global `tagged-code-comments` convention (`🔴 FIXME(P0):`, `🟠 TODO(P1):`, …). Never leave silent stubs. End with an **Open follow-ups** table so the developer must check P0/P1 before ship.
 
 ## Project layout (libraries)
 

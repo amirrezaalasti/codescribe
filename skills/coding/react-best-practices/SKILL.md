@@ -30,6 +30,7 @@ metadata:
 5. **Controlled vs uncontrolled.** Pick one per input; do not flip-flop. For forms, follow the project's form library if present.
 6. **Performance.** Do not add `useMemo`/`useCallback` by default. Add them when profiling or when referential stability is required by a child/effect dep. Follow React Compiler guidance if the project uses it.
 7. **Accessibility baseline.** Use button/link correctly; associate `<label htmlFor>`; manage focus for dialogs; do not rely on color alone.
+8. **Tag unfinished or risky work.** Use the global `tagged-code-comments` convention (`🔴 FIXME(P0):`, `🟠 TODO(P1):`, `{/* 🟡 UX(P2): … */}`). Never leave silent stubs. End with an **Open follow-ups** table so the developer must check P0/P1 before ship.
 
 ## Effect anti-pattern
 
