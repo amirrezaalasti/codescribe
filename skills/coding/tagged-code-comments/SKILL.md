@@ -6,7 +6,7 @@ description: >-
   developers are forced to review open items before shipping. Use whenever
   writing, editing, reviewing, debugging, or finishing code in any language;
   when leaving TODOs/FIXMEs; when work is partial; or when the user asks for
-  tagged, prioritized, or emoji comments. Default for all Skillhub coding work.
+  tagged, prioritized, or emoji comments. Default for all Codescribe coding work.
 license: MIT
 metadata:
   author: amirrezaalasti

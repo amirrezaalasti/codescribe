@@ -52,3 +52,7 @@ Explain what the results **mean**, where they **break**, and what they imply —
 ## Checklist
 
 See [references/checklist.md](references/checklist.md).
+
+## Additional resources
+
+- [references/examples.md](references/examples.md) — before/after rewrites and common failure → fix table

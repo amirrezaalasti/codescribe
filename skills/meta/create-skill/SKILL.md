@@ -1,9 +1,9 @@
 ---
 name: create-skill
 description: >-
-  Scaffold and author new Agent Skills for this skillhub catalog with correct
+  Scaffold and author new Agent Skills for this codescribe catalog with correct
   frontmatter, descriptions, and progressive disclosure. Use when adding a new
-  skill to skillhub, running npm run new-skill, or when the user asks to create
+  skill to codescribe, running npm run new-skill, or when the user asks to create
   an agent skill for coding or writing.
 license: MIT
 metadata:
@@ -12,7 +12,7 @@ metadata:
   category: meta
 ---
 
-# Create Skill (Skillhub)
+# Create Skill (Codescribe)
 
 ## Goal
 

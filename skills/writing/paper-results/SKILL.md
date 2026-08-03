@@ -52,3 +52,7 @@ Provide evidence for the claims — measured, comparable, and honestly scoped.
 ## Checklist
 
 See [references/checklist.md](references/checklist.md).
+
+## Additional resources
+
+- [references/examples.md](references/examples.md) — before/after rewrites and common failure → fix table

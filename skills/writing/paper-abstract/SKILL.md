@@ -50,3 +50,7 @@ Always prefer the venue’s stated limit over these heuristics.
 ## Checklist
 
 See [references/checklist.md](references/checklist.md).
+
+## Additional resources
+
+- [references/examples.md](references/examples.md) — before/after rewrites and common failure → fix table

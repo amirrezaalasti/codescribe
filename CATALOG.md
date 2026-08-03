@@ -2,7 +2,7 @@
 
 # Skill Catalog
 
-Generated from 23 skills. Install: `npx skills add amirrezaalasti/skillhub`
+Generated from 23 skills. Install: `npx skills add amirrezaalasti/codescribe`
 
 ## coding
 
@@ -16,15 +16,15 @@ Generated from 23 skills. Install: `npx skills add amirrezaalasti/skillhub`
 | `python-best-practices` | Write idiomatic, typed Python with clear packaging, ruff/pytest defaults, and practical error handling. Use when writing or refactoring Python code, modules, scripts, packages, or APIs, or when the user mentions Python style, typing, or project layout. | [`skills/coding/python-best-practices`](skills/coding/python-best-practices) |
 | `python-testing` | Design and write pytest tests with clear fixtures, parametrization, and coverage expectations. Use when writing Python tests, fixing failing tests, adding fixtures, or when the user mentions pytest, unit tests, or test coverage in Python. | [`skills/coding/python-testing`](skills/coding/python-testing) |
 | `react-best-practices` | Build React UIs with clear composition, correct state placement, disciplined effects, and basic accessibility. Use when writing React components, hooks, fixing re-renders or effect bugs, or when the user mentions React, JSX, or client UI state. | [`skills/coding/react-best-practices`](skills/coding/react-best-practices) |
-| `tagged-code-comments` | Global coding hygiene: every incomplete path, risk, workaround, or follow-up MUST be marked with emoji + tag + priority (🔴 FIXME(P0), 🟠 TODO(P1), …) so developers are forced to review open items before shipping. Use whenever writing, editing, reviewing, debugging, or finishing code in any language; when leaving TODOs/FIXMEs; when work is partial; or when the user asks for tagged, prioritized, or emoji comments. Default for all Skillhub coding work. | [`skills/coding/tagged-code-comments`](skills/coding/tagged-code-comments) |
+| `tagged-code-comments` | Global coding hygiene: every incomplete path, risk, workaround, or follow-up MUST be marked with emoji + tag + priority (🔴 FIXME(P0), 🟠 TODO(P1), …) so developers are forced to review open items before shipping. Use whenever writing, editing, reviewing, debugging, or finishing code in any language; when leaving TODOs/FIXMEs; when work is partial; or when the user asks for tagged, prioritized, or emoji comments. Default for all Codescribe coding work. | [`skills/coding/tagged-code-comments`](skills/coding/tagged-code-comments) |
 | `typescript-best-practices` | Write strict, idiomatic TypeScript with sound types, narrowing, and clear API contracts. Use when writing or refactoring TypeScript, adding types to JS, designing interfaces, fixing type errors, or when the user mentions tsconfig, generics, or typed APIs. | [`skills/coding/typescript-best-practices`](skills/coding/typescript-best-practices) |
 
 ## meta
 
 | Skill | Description | Path |
 | --- | --- | --- |
-| `create-skill` | Scaffold and author new Agent Skills for this skillhub catalog with correct frontmatter, descriptions, and progressive disclosure. Use when adding a new skill to skillhub, running npm run new-skill, or when the user asks to create an agent skill for coding or writing. | [`skills/meta/create-skill`](skills/meta/create-skill) |
-| `revise-skill` | Revise existing Skillhub skills via local edits, validation, and pull requests or skill-revision issues. Use when updating an outdated skill, improving instructions, fixing discovery descriptions, or when the user wants to propose changes to a skill in this catalog. | [`skills/meta/revise-skill`](skills/meta/revise-skill) |
+| `create-skill` | Scaffold and author new Agent Skills for this codescribe catalog with correct frontmatter, descriptions, and progressive disclosure. Use when adding a new skill to codescribe, running npm run new-skill, or when the user asks to create an agent skill for coding or writing. | [`skills/meta/create-skill`](skills/meta/create-skill) |
+| `revise-skill` | Revise existing Codescribe skills via local edits, validation, and pull requests or skill-revision issues. Use when updating an outdated skill, improving instructions, fixing discovery descriptions, or when the user wants to propose changes to a skill in this catalog. | [`skills/meta/revise-skill`](skills/meta/revise-skill) |
 
 ## writing
 

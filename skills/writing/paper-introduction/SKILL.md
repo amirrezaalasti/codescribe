@@ -59,3 +59,7 @@ Prefer “We propose X and show Y on Z” over “We explore the space of …”
 ## Checklist
 
 See [references/checklist.md](references/checklist.md).
+
+## Additional resources
+
+- [references/examples.md](references/examples.md) — before/after rewrites and common failure → fix table

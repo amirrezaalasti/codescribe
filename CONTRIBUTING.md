@@ -1,12 +1,12 @@
-# Contributing to Skillhub
+# Contributing to Codescribe
 
 Thanks for helping improve agent skills for coding and academic writing.
 
 ## Quick start
 
 ```bash
-git clone https://github.com/amirrezaalasti/skillhub.git
-cd skillhub
+git clone https://github.com/amirrezaalasti/codescribe.git
+cd codescribe
 npm run new-skill -- coding my-skill-name
 # edit skills/coding/my-skill-name/SKILL.md
 npm run check

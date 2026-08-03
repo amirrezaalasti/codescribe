@@ -103,7 +103,7 @@ function main() {
     "",
     "# Skill Catalog",
     "",
-    `Generated from ${skills.length} skills. Install: \`npx skills add amirrezaalasti/skillhub\``,
+    `Generated from ${skills.length} skills. Install: \`npx skills add amirrezaalasti/codescribe\``,
     "",
   ];
 

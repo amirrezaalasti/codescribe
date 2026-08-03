@@ -1,12 +1,12 @@
-# Skillhub
+# Codescribe
 
 Multi-agent skill catalog for **coding** (Python, JavaScript, TypeScript, React, Next.js) and **academic writing** (paper sections, LaTeX, peer review).
 
 Skills follow the open [Agent Skills](https://agentskills.io) format and install into Cursor, Claude Code, VS Code (GitHub Copilot), Codex, and 30+ other agents via the [`skills` CLI](https://skills.sh).
 
-[![skills.sh](https://skills.sh/b/amirrezaalasti/skillhub)](https://skills.sh/amirrezaalasti/skillhub)
+[![skills.sh](https://skills.sh/b/amirrezaalasti/codescribe)](https://skills.sh/amirrezaalasti/codescribe)
 
-> **Note:** The skills.sh badge activates after this repo is public on GitHub as `amirrezaalasti/skillhub`. Change the owner/name in links if your fork differs.
+> **Note:** The skills.sh badge activates after this repo is public on GitHub as `amirrezaalasti/codescribe`. Change the owner/name in links if your fork differs.
 
 ## Install (universal)
 
@@ -14,22 +14,22 @@ The recommended way for **all agents** — Cursor, Claude Code, VS Code / Copilo
 
 ```bash
 # All skills into detected agents (interactive)
-npx skills add amirrezaalasti/skillhub
+npx skills add amirrezaalasti/codescribe
 
 # Global (all your projects)
-npx skills add amirrezaalasti/skillhub -g
+npx skills add amirrezaalasti/codescribe -g
 
 # Specific skills
-npx skills add amirrezaalasti/skillhub -s python-best-practices -s paper-abstract
+npx skills add amirrezaalasti/codescribe -s python-best-practices -s paper-abstract
 
 # Target one or more agents
-npx skills add amirrezaalasti/skillhub -a cursor
-npx skills add amirrezaalasti/skillhub -a claude-code
-npx skills add amirrezaalasti/skillhub -a github-copilot
-npx skills add amirrezaalasti/skillhub -a codex
+npx skills add amirrezaalasti/codescribe -a cursor
+npx skills add amirrezaalasti/codescribe -a claude-code
+npx skills add amirrezaalasti/codescribe -a github-copilot
+npx skills add amirrezaalasti/codescribe -a codex
 
 # Multiple agents at once
-npx skills add amirrezaalasti/skillhub -a cursor -a claude-code -a github-copilot
+npx skills add amirrezaalasti/codescribe -a cursor -a claude-code -a github-copilot
 
 # Update later
 npx skills update
@@ -38,7 +38,7 @@ npx skills update
 List without installing:
 
 ```bash
-npx skills add amirrezaalasti/skillhub --list
+npx skills add amirrezaalasti/codescribe --list
 ```
 
 ## Install by agent
@@ -46,15 +46,15 @@ npx skills add amirrezaalasti/skillhub --list
 ### Cursor
 
 ```bash
-npx skills add amirrezaalasti/skillhub -a cursor
+npx skills add amirrezaalasti/codescribe -a cursor
 # or globally:
-npx skills add amirrezaalasti/skillhub -g -a cursor
+npx skills add amirrezaalasti/codescribe -g -a cursor
 ```
 
 **Manual:** Open **Settings → Skills → Add skill**, or **Customize → Rules → Add Rule → Remote Rule (GitHub)** and paste:
 
 ```text
-https://github.com/amirrezaalasti/skillhub
+https://github.com/amirrezaalasti/codescribe
 ```
 
 Skills land in `.agents/skills/` (project) or `~/.cursor/skills/` (global).
@@ -62,9 +62,9 @@ Skills land in `.agents/skills/` (project) or `~/.cursor/skills/` (global).
 ### VS Code (GitHub Copilot)
 
 ```bash
-npx skills add amirrezaalasti/skillhub -a github-copilot
+npx skills add amirrezaalasti/codescribe -a github-copilot
 # or globally:
-npx skills add amirrezaalasti/skillhub -g -a github-copilot
+npx skills add amirrezaalasti/codescribe -g -a github-copilot
 ```
 
 Skills land in `.agents/skills/` / `.github/skills/` (project) or `~/.copilot/skills/` (global). In VS Code Chat, open **Configure Chat → Skills** (or type `/skills`) to confirm they loaded.
@@ -74,9 +74,9 @@ Skills land in `.agents/skills/` / `.github/skills/` (project) or `~/.copilot/sk
 ### Claude Code
 
 ```bash
-npx skills add amirrezaalasti/skillhub -a claude-code
+npx skills add amirrezaalasti/codescribe -a claude-code
 # or:
-claude skill add https://github.com/amirrezaalasti/skillhub
+claude skill add https://github.com/amirrezaalasti/codescribe
 ```
 
 Skills land in `.claude/skills/` (project) or `~/.claude/skills/` (global).
@@ -84,7 +84,7 @@ Skills land in `.claude/skills/` (project) or `~/.claude/skills/` (global).
 ### Codex
 
 ```bash
-npx skills add amirrezaalasti/skillhub -a codex
+npx skills add amirrezaalasti/codescribe -a codex
 ```
 
 Skills land under `.agents/skills/` (project) or `~/.codex/skills/` (global).
@@ -92,7 +92,7 @@ Skills land under `.agents/skills/` (project) or `~/.codex/skills/` (global).
 ### Any other supported agent
 
 ```bash
-npx skills add amirrezaalasti/skillhub
+npx skills add amirrezaalasti/codescribe
 ```
 
 The CLI auto-detects installed agents. Pass `-a <agent>` to target one explicitly (see [supported agents](https://github.com/vercel-labs/skills#supported-agents)).
@@ -100,7 +100,7 @@ The CLI auto-detects installed agents. Pass `-a <agent>` to target one explicitl
 ## Install one skill
 
 ```bash
-npx skills add amirrezaalasti/skillhub -s <skill-name>
+npx skills add amirrezaalasti/codescribe -s <skill-name>
 ```
 
 | Category | Skills |
@@ -112,13 +112,13 @@ npx skills add amirrezaalasti/skillhub -s <skill-name>
 Example — install a coding skill into Cursor and Claude:
 
 ```bash
-npx skills add amirrezaalasti/skillhub -s code-review -a cursor -a claude-code
+npx skills add amirrezaalasti/codescribe -s code-review -a cursor -a claude-code
 ```
 
 Or point at a skill folder URL:
 
 ```bash
-npx skills add https://github.com/amirrezaalasti/skillhub/tree/main/skills/coding/code-review
+npx skills add https://github.com/amirrezaalasti/codescribe/tree/main/skills/coding/code-review
 ```
 
 ## Catalog
@@ -160,8 +160,8 @@ CI validates skills on every PR and regenerates `CATALOG.md` on `main` when skil
 ## Local development
 
 ```bash
-git clone https://github.com/amirrezaalasti/skillhub.git
-cd skillhub
+git clone https://github.com/amirrezaalasti/codescribe.git
+cd codescribe
 npm run validate
 npm run catalog
 npx skills add ./ --list

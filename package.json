@@ -1,5 +1,5 @@
 {
-  "name": "skillhub",
+  "name": "codescribe",
   "version": "1.0.0",
   "private": true,
   "description": "Multi-agent skill catalog for coding and academic writing (agentskills.io)",
@@ -16,6 +16,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amirrezaalasti/skillhub"
+    "url": "https://github.com/amirrezaalasti/codescribe"
   }
 }

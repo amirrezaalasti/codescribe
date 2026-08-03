@@ -46,3 +46,7 @@ Leave a clear takeaway: what was achieved, why it matters, and (optionally) what
 ## Checklist
 
 See [references/checklist.md](references/checklist.md).
+
+## Additional resources
+
+- [references/examples.md](references/examples.md) — before/after rewrites and common failure → fix table

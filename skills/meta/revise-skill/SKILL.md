@@ -1,7 +1,7 @@
 ---
 name: revise-skill
 description: >-
-  Revise existing Skillhub skills via local edits, validation, and pull requests
+  Revise existing Codescribe skills via local edits, validation, and pull requests
   or skill-revision issues. Use when updating an outdated skill, improving
   instructions, fixing discovery descriptions, or when the user wants to propose
   changes to a skill in this catalog.
@@ -12,7 +12,7 @@ metadata:
   category: meta
 ---
 
-# Revise Skill (Skillhub)
+# Revise Skill (Codescribe)
 
 ## Goal
 
