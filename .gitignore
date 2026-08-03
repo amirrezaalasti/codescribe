@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+.skills-lock.json
+skills-lock.json
+.env
+.idea/
+.vscode/
+*.swp

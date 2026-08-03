@@ -1,0 +1,24 @@
+name: Validate skills
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate skills
+        run: npm run validate
+      - name: Ensure catalog is up to date
+        run: |
+          npm run catalog
+          git diff --exit-code CATALOG.md || (
+            echo "::error::CATALOG.md is out of date. Run 'npm run catalog' and commit."
+            exit 1
+          )

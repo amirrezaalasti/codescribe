@@ -1,0 +1,31 @@
+name: Skill revision
+description: Propose changes to an existing skill
+title: "[skill revision] "
+labels: ["skill-revision"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name or path
+      placeholder: skills/coding/python-best-practices
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or outdated?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Paste rewritten sections or a clear diff of intent
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this improves agent behavior
+    validations:
+      required: true
