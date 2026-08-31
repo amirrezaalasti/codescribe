@@ -2,6 +2,8 @@
 
 Thanks for helping improve agent skills for coding and academic writing.
 
+> Working with an AI agent? Point it at [AGENTS.md](AGENTS.md) first — it covers which paths are source vs. generated and the tagged-comment convention this repo requires.
+
 ## Quick start
 
 ```bash

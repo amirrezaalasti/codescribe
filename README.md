@@ -164,9 +164,10 @@ npm run check                               # validate + regenerate CATALOG.md
 ```
 
 - 🤝 Contributors: see [CONTRIBUTING.md](CONTRIBUTING.md)
+- 🤖 Agents working *on this repo*: see [AGENTS.md](AGENTS.md) — source vs. generated paths, and the mandatory tagged-comment convention
 - 💡 Request a skill: GitHub issue template **Skill request**
 - ✏️ Propose an edit: issue template **Skill revision**, or open a PR
-- 🤖 Agents: use the `create-skill` / `revise-skill` skills in this repo
+- 🧩 Agents: use the `create-skill` / `revise-skill` skills in this repo
 
 ✅ CI validates skills on every PR and regenerates `CATALOG.md` on `main` when skill metadata changes.
 

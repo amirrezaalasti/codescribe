@@ -7,3 +7,8 @@ skills-lock.json
 .idea/
 .vscode/
 *.swp
+
+# Local `npx skills add ./ ...` install targets — generated copies of skills/,
+# never source. See AGENTS.md.
+.agents/skills/
+.claude/skills/
