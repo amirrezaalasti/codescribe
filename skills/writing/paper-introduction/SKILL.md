@@ -7,7 +7,7 @@ description: >-
 license: MIT
 metadata:
   author: amirrezaalasti
-  version: "1.0"
+  version: "1.1"
   category: writing
 ---
 
@@ -38,6 +38,20 @@ We make the following contributions:
 ```
 
 Prefer “We propose X and show Y on Z” over “We explore the space of …”.
+
+## Before the formalism: the plain-language core idea
+
+By the second paragraph, state the whole idea in ordinary words, using none of
+the paper's coined vocabulary. A reader who cannot restate your idea after one
+page will not recover it later, and the most common review comment on an opaque
+draft is a reviewer paraphrasing the idea back more simply than the author did.
+If that happens, their sentence is the better opening — use it.
+
+## Name the problems before elaborating them
+
+If the paper turns on N problems, name all N in one sentence, then take them in
+turn. Do not elaborate the first before the reader knows there are three, and do
+not call them "properties" or "aspects" when they are problems.
 
 ## Instructions
 

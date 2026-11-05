@@ -29,7 +29,20 @@ Work top to bottom. A method a skilled reader cannot redraw or reimplement from 
 - [ ] Randomness sources (seeds, initialization, sampling) are named if results are stochastic
 - [ ] Code/data availability is pointed to, or its absence is acknowledged
 
-## Pass 5 — Separation from evaluation
+## Pass 5 — Coherence across the section
+
+- [ ] A reader can state, for every component, which problem it exists to solve — and the text says so explicitly
+- [ ] Challenges, design principles, and components use one stable set of names and labels; no synonyms, no renaming between prose, figures, and captions
+- [ ] No two boxes/lists/paragraphs enumerate the same items; each highlighted element has a distinct job and is referenced by the running text
+- [ ] Each transition between motivation, problem statement, and solution says why that part comes next
+- [ ] A roadmap precedes any run of more than ~4 subsections, and the subsections follow the stated order and grouping
+- [ ] Parallel subsections have parallel depth (if one closes with benefits/limitations, all comparable ones do)
+- [ ] Every threshold or constant appearing in prose, figures, or captions is justified and its provenance stated at first mention
+- [ ] Every display equation defines a symbol used later or states a relation referenced later; anything a clause could say is a clause
+- [ ] Every figure is introduced by the text before it appears, and the text walks the reader through it rather than merely pointing at it
+- [ ] Figures that illustrate a transformation show the transformation on a concrete instance, not only its schematic stages
+
+## Pass 6 — Separation from evaluation
 
 - [ ] Train/val/test protocol is described here (or clearly deferred to a named subsection/section)
 - [ ] No results, comparisons, or interpretive claims have leaked into the method description

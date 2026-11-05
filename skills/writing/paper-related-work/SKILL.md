@@ -8,7 +8,7 @@ description: >-
 license: MIT
 metadata:
   author: amirrezaalasti
-  version: "1.0"
+  version: "1.1"
   category: writing
 ---
 
@@ -25,6 +25,12 @@ Show you know the landscape **and** where you sit in it — synthesis, not a pap
 3. **Chronological only when history is the point** — rare for systems/ML papers
 
 End the section (or each theme) with an explicit **positioning paragraph**.
+
+## Open with a roadmap
+
+Topic-organised paragraphs are good, but a reader cannot place them without one
+or two opening sentences saying what the section covers and why those areas.
+State the lines of work and, for each, the point where your work departs.
 
 ## Instructions
 

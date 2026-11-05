@@ -8,7 +8,7 @@ description: >-
 license: MIT
 metadata:
   author: amirrezaalasti
-  version: "1.0"
+  version: "1.1"
   category: writing
 ---
 
@@ -25,6 +25,22 @@ Provide evidence for the claims — measured, comparable, and honestly scoped.
 3. **Comparisons** — baselines and SOTA under fair protocol
 4. **Ablations / analyses** — what matters in the design
 5. **Qualitative examples** — when they add insight (not decoration)
+
+## Structure by question, and state each takeaway
+
+Order results blocks to match the research questions, in the order posed, and
+label each block with the question it answers. Close each with one explicit
+sentence naming what it established — an italic *Takeaway.* lead-in is enough.
+Without it, reviewers report *"I lack clear takeaways for me as a reader"* even
+when every number is present.
+
+## Provenance for every derived number
+
+Any number not read straight off an instrument states its derivation where it
+appears: what was counted, by what rule, over what set. Categories state their
+assignment procedure and whether they partition the data. Expect *"where do
+these numbers come from, how did you determine them?"* on anything that skips
+this.
 
 ## Instructions
 

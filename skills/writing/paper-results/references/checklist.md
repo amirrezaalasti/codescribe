@@ -27,3 +27,13 @@
 - [ ] Deep interpretation is deferred to Discussion — this section stays evidence-focused
 
 See [examples.md](examples.md) for before/after rewrites and common failure patterns.
+
+## Comprehension (from real review)
+
+- [ ] Blocks ordered by, and labelled with, the research questions they answer
+- [ ] Each block closes with an explicit takeaway sentence
+- [ ] Every derived number states what was counted, by what rule, over what set
+- [ ] Category schemes state their assignment procedure and whether they partition
+- [ ] Table dashes and omitted conditions carry their reason in the caption
+- [ ] Setup split into named parts (subjects, scoring, models, protocol)
+- [ ] Every problem named in the opening is answered here by name
