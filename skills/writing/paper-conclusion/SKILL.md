@@ -7,7 +7,7 @@ description: >-
 license: MIT
 metadata:
   author: amirrezaalasti
-  version: "1.0"
+  version: "1.1"
   category: writing
 ---
 
@@ -23,6 +23,18 @@ Leave a clear takeaway: what was achieved, why it matters, and (optionally) what
 2. **Summarize main evidence** (no new numbers unless already shown)
 3. **Broader takeaway**
 4. **Future work** — 2–4 concrete directions max (or omit if discussed earlier)
+
+## A conclusion answers the opening question
+
+The conclusion returns to the problem the paper named at the start and says
+where it now stands. Numbers appear only as support for that answer. A
+conclusion that walks the results again earns *"too much repetition of the
+results section"* and, in the same breath, *"but what do you conclude regarding
+the presented problem?"* — both at once, because restating results is what
+authors do instead of concluding.
+
+Name each problem from the opening explicitly. If the evidence for one is weaker
+than for another, mark the asymmetry here rather than smoothing it.
 
 ## Instructions
 

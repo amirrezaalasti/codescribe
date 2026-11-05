@@ -8,7 +8,7 @@ description: >-
 license: MIT
 metadata:
   author: amirrezaalasti
-  version: "1.0"
+  version: "1.1"
   category: writing
 ---
 
@@ -53,9 +53,22 @@ Help the author produce a coherent manuscript: clear contribution, sound structu
 ## Voice rules
 
 - Prefer precise, concrete language over marketing adjectives
-- Define acronyms on first use
+- Define acronyms **and coined terms** on first use, in the same sentence
 - Separate facts, claims, and speculation
 - Never invent citations, numbers, or quotes — mark placeholders as `[CITATION NEEDED]` / `[RESULT NEEDED]`
+- No colloquial register; "percentage points" for differences between percentages
+- Use the field's established term rather than a coined one where both fit
+
+## The problem spine (check every revision)
+
+Whatever the opening names as the problem is a promise. Trace each named problem
+through the whole paper: it must be **named again** in the evaluation, the
+discussion, and the conclusion, and answered or explicitly declared unanswered.
+A named problem the paper never returns to is the single most repeated complaint
+in real review, and reviewers raise it once per section until it is fixed.
+
+Where evidence for two named problems differs in strength, say so rather than
+letting the weaker ride on the stronger.
 
 ## Anti-patterns
 
@@ -63,7 +76,13 @@ Help the author produce a coherent manuscript: clear contribution, sound structu
 - Related work as an annotated bibliography with no synthesis
 - Methods that cannot support the claimed evaluation
 - Inflated novelty claims without comparison points
+- Listing system components as contributions; an evaluation as a contribution
+- Coined vocabulary in the abstract, explained only in the body
+- A named problem that the evaluation and conclusion never mention again
 
 ## Additional resources
 
 - [references/outline-template.md](references/outline-template.md)
+- [references/reader-comprehension.md](references/reader-comprehension.md) —
+  failure patterns from a real supervisor review, where a third of comments were
+  "I do not understand what you mean". **Read before drafting front matter.**

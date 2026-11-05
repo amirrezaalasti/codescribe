@@ -25,3 +25,10 @@
 - [ ] No vague inspirational closing line unsupported by the evidence
 
 See [examples.md](examples.md) for before/after rewrites and common failure patterns.
+
+## Comprehension (from real review)
+
+- [ ] Answers the question the paper opened with, in its terms
+- [ ] Does not re-walk the results; numbers appear only as support
+- [ ] Each named problem addressed explicitly, by name
+- [ ] Asymmetry in evidence strength between problems is stated, not smoothed

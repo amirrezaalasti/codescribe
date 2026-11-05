@@ -21,3 +21,14 @@
 - [ ] No citations are invented or half-remembered from prior training data
 
 See [examples.md](examples.md) for before/after rewrites and common failure patterns.
+
+## Comprehension (from real review)
+
+- [ ] Plain-language statement of the whole idea by the second paragraph, using no coined vocabulary
+- [ ] All named problems listed in one sentence before any is elaborated
+- [ ] Called problems or challenges, not "properties" or "aspects"
+- [ ] Distinctions the argument depends on are defined before use
+- [ ] Contributions are findings and gains, not system components
+- [ ] No contribution is an evaluation; each traces to a named problem
+- [ ] Preview of what was found, not only of what was built
+- [ ] No forward reference to a numbered equation or table

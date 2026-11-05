@@ -26,3 +26,13 @@
 - [ ] Within the venue's stated word/character limit
 
 See [examples.md](examples.md) for before/after rewrites.
+
+## Comprehension (from real review)
+
+- [ ] No coined term appears that the abstract does not itself explain
+- [ ] No acronym undefined
+- [ ] Closes with a conclusion about the problem named at the start, not with results
+- [ ] Where two problems are named, each is answered and unequal evidence is marked
+- [ ] Read against the introduction as a pair — no claim contradicts it
+- [ ] Near-synonyms (finished / successful, deployed / applied) used consistently
+- [ ] "percentage points" for differences between percentages
